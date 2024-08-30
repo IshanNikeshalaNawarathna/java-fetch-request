@@ -22,6 +22,14 @@ public class getRequest extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("GET REQUEST");
+
+        String name = request.getParameter("name");
+
+        System.out.println(name);
+
+        System.out.println(10 / 0);
+
+        response.getWriter().write("Hello");
     }
- 
+
 }
