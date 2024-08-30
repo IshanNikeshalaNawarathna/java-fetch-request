@@ -1,0 +1,5 @@
+function getRequest() {
+    
+    fetch("getRequest");
+    
+}
